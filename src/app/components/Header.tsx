@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const Header: React.FC = () => {
     return (
-        <header className='w-[95%] h-auto pt-[10px] flex justify-between items-center relative z-20'>
+        <header className='w-full h-auto pl-[2%] pr-[2%] pt-[10px] flex justify-between items-center relative z-20'>
            <Image src="/Netflix_Logo_PMS.png" alt="Netflix_Logo" width={150} height={0} layout="intrinsic"/> 
            <div className='flex gap-2'>
            <select name='LanguageSelect' className='bg-transparent w-[100px] h-[35px] rounded-full border border-2 text-white'>

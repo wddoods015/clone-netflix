@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import PromotionContainer from "./components/PromotionContainer";
 import MainContainer from "./components/MainContainer";
 import Footer from "./components/Footer";
+//import PostList from "./components/PosterList";
 
 
 export default function Home() {
@@ -15,7 +16,7 @@ export default function Home() {
         <MainContainer/>
         <div className="w-full h-auto absolute top-[58%] flex justify-center gap-2 z-20">
         <input
-        className="w-[412px] h-[56px] bg-transparent border border-[#ffffffb3] p-2 text-white rounded-full"
+        className="w-[412px] h-[56px] bg-transparent border border-[#ffffffb3] p-4 text-white rounded-full"
         placeholder="이메일 주소"
         />
         <button
@@ -27,6 +28,7 @@ export default function Home() {
     
         <div className="h-[2000px]">
           llst 영역
+          {/* <PostList/> */}
         </div>
         <Footer/> 
       </BackGround>

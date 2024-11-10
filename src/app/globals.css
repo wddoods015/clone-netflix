@@ -1,4 +1,17 @@
+/* global.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.bg-full {
+  @apply w-full h-screen bg-gray-200; /* Tailwind CSS로 배경 설정 */
+}

@@ -17,7 +17,6 @@ export default function BackGround({ children }: BackGroundProps) {
         </div>
       </div>
 
-      {/* children은 이 위치에 렌더링됩니다 */}
       {children}
     </div>
   );

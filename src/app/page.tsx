@@ -4,6 +4,7 @@ import PromotionContainer from "./components/PromotionContainer";
 import MainContainer from "./components/MainContainer";
 import Footer from "./components/Footer";
 //import PostList from "./components/PosterList";
+import Notice from "./components/Notice";
 
 
 export default function Home() {
@@ -23,12 +24,11 @@ export default function Home() {
         className="w-[140px] h-[56px] bg-[red] text-white text-xl rounded-full"
         >시작하기</button>
         </div>
-        
         </div>
     
-        <div className="h-[2000px]">
-          llst 영역
+        <div className="relative flex  justify-center h-[1800px]"> 
           {/* <PostList/> */}
+          <Notice/>
         </div>
         <Footer/> 
       </BackGround>

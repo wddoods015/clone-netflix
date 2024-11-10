@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer: React.FC = () => {
     return (
-        <footer className="absolute bottom-0 left-0 w-full h-auto pb-[96px] bg-black flex flex-col gap-12 ml-[15%]">
+        <footer className="absolute bottom-0 left-0 w-full h-auto pb-[96px] bg-black flex flex-col gap-12 ml-[10%]">
             <span className="text-[#ffffffb3] w-[100%]">질문이 있으신가요? 문의 전화: 00-308-321-0161 (수신자 부담)</span>
             <div className="h-full w-[70%] grid grid-cols-2 md:grid-cols-4 gap-4">
             <span className="text-[#ffffffb3] underline decoration-white-100">자주 묻는 질문</span>

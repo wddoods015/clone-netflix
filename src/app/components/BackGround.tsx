@@ -8,7 +8,7 @@ interface BackGroundProps {
 
 export default function BackGround({ children }: BackGroundProps) {
   return (
-    <div className="relative min-h-screen w-full">
+    <div className="relative  w-full h-[1200px]">
       {/* 배경 이미지와 그라디언트 */}
       <div className="absolute inset-0 bg-gradient-to-b from-gray-900 to-black z-0">
         <TrailerImage />

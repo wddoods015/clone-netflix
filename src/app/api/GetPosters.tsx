@@ -3,9 +3,9 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-type Props = {
+interface Props {
   posters: string[];
-};
+}
 
 const GetPosters = ({ posters }: Props) => {
   return (

@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   experimental: {
-    toolbar: false,  // 툴바 비활성화
+    toolbar: false, // 툴바 비활성화
   },
 };
 
